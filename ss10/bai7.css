@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F8F5F0;
+}
+h1{
+    font-size: 35px;
+}
+
+header{
+    display: flex;
+    background-image: url(../anh/1.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    width: 800px;
+    flex-wrap: wrap;
+    margin: 40px 0px 40px 360px;
+}
+.d1{
+    background-image: url(../anh/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.d2{
+    background-image: url(../anh/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.d3{
+    background-image: url(../anh/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.d4{
+    background-image: url(../anh/5.png);
+    background-size: cover;
+    background-position: center;
+}
+.d5{
+    background-image: url(../anh/6.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 100px;
+}
+.d6{
+    background-image: url(../anh/7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.d7{
+    background-image: url(../anh/8.png);
+    background-size: cover;
+    background-position: center;
+}
+div{
+    display: flex;
+    width: 180px;
+    height: 180px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px black;
+    align-items: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    text-shadow: 15px 0px 20px black;
+    justify-content: center;
+}
+h3{
+    padding-top: 100px;
+}
+
+section{
+    background-color: #8B0000;
+    height: 360px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 30px;
+}
+h2{
+    font-size: 32px;
+}
+section p{
+    font-size: small;
+    transform: translateY(18px);
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 340px;
+    width: 800px;
+    gap: 20px;
+}
+.box{
+    width: 250px;
+    height: 48px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 0px solid;
+}
+button{
+    color: #8B0000;
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+    width: 250px;
+    height: 48px;
+    border-radius: 30px;
+    border: 0px solid;
+}
+
+footer{
+    background-color: #1E1E1E;
+    text-align: center;
+    color: #DDDDDD;
+    padding: 30px 0px;
+}
